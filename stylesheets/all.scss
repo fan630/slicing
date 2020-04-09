@@ -1,11 +1,9 @@
-// @import './base/base';
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-$primary-color:#00CA99;
+$primary-green:#00CA99;
 $spacing-base: 16px;
 
-*{
-   outline:1px solid#000;
-}
+
 
 .bg-top{
     background-color: #f6f6f6;
@@ -91,14 +89,13 @@ label {
 }
 
 
-
-@media screen and (max-width:768px){
+@include media-breakpoint-down(sm){
     .img-class{
         margin:0 auto;
     }
     .nav-link{
         border:1px solid;
         text-decoration: none;
-        background-color: darken($primary-color, 30%);
+        background-color: darken($primary-green, 30%);
     }    
 }
