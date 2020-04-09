@@ -1,0 +1,107 @@
+* {
+  outline: 1px solid #000;
+}
+
+.bg-top {
+  background-color: #f6f6f6;
+}
+
+.bg-top--style {
+  letter-spacing: 2px;
+}
+
+.bg-cover {
+  background-position: center center;
+  background-size: cover;
+}
+
+.icon-facebook {
+  color: blue;
+}
+
+.icon-facebook:after {
+  color: blue;
+  content: '|';
+  margin: 0 5px;
+}
+
+.icon-twitter {
+  color: #00AAEC;
+}
+
+.nav-link {
+  color: #00CA99;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #009772;
+}
+
+.img-title {
+  position: absolute;
+  top: 30%;
+  left: 3%;
+}
+
+.img-title--style {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.itemText {
+  color: #5abb9a;
+}
+
+.card--style {
+  -webkit-box-shadow: 2px 3px 2px #eaeaea;
+          box-shadow: 2px 3px 2px #eaeaea;
+}
+
+.custom__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.custom--center {
+  margin-top: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.custom--left {
+  text-align: left;
+}
+
+.bg-form {
+  background-color: #2D6B50;
+}
+
+label {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.btn-send {
+  color: white;
+  background-color: #45e0b4;
+}
+
+.btn-send:hover {
+  background-color: #9cefd7;
+}
+
+@media screen and (max-width: 768px) {
+  .img-class {
+    margin: 0 auto;
+  }
+  .nav-link {
+    border: 1px solid;
+    text-decoration: none;
+    background-color: #003125;
+  }
+}
+/*# sourceMappingURL=all.css.map */
