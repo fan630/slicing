@@ -2,8 +2,7 @@
 
 $primary-green:#00CA99;
 $spacing-base: 16px;
-
-
+$font-size-base: 16px; 
 
 .bg-top{
     background-color: #f6f6f6;
@@ -12,10 +11,6 @@ $spacing-base: 16px;
     }
 }
 
-.bg-cover{
-    background-position: center center;
-    background-size: cover;
-}
 
 .icon-facebook{
     color:blue;
@@ -41,8 +36,10 @@ $spacing-base: 16px;
 .img-title{
     position: absolute;
     top:30%;
-    left:3%;
+    padding-left:3%;
+    font-size:$font-size-base* 3;
     &--style{
+        padding:10px 0;
         background-color: rgba($color: #000000, $alpha: 0.6);
     }
 }
@@ -92,6 +89,9 @@ label {
 @include media-breakpoint-down(sm){
     .img-class{
         margin:0 auto;
+    }
+    .img-title{
+        font-size:$font-size-base*1.5;
     }
     .nav-link{
         border:1px solid;

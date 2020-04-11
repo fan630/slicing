@@ -10772,11 +10772,6 @@ a.text-dark:hover, a.text-dark:focus {
   letter-spacing: 2px;
 }
 
-.bg-cover {
-  background-position: center center;
-  background-size: cover;
-}
-
 .icon-facebook {
   color: blue;
 }
@@ -10803,10 +10798,12 @@ a.text-dark:hover, a.text-dark:focus {
 .img-title {
   position: absolute;
   top: 30%;
-  left: 3%;
+  padding-left: 3%;
+  font-size: 48px;
 }
 
 .img-title--style {
+  padding: 10px 0;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -10859,6 +10856,9 @@ label {
 @media (max-width: 767.98px) {
   .img-class {
     margin: 0 auto;
+  }
+  .img-title {
+    font-size: 24px;
   }
   .nav-link {
     border: 1px solid;
