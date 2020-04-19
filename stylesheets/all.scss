@@ -4,13 +4,22 @@ $primary-green:#00CA99;
 $spacing-base: 16px;
 $font-size-base: 16px; 
 
-.bg-top{
-    background-color: #f6f6f6;
-    &--style{
-        letter-spacing: 2px;
-    }
+// *{
+//     outline:1px solid;
+// }
+
+.wrap{
+    max-width: 1920px;
 }
 
+header li{
+    list-style: none;
+}
+
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+}
 
 .icon-facebook{
     color:blue;
@@ -27,6 +36,7 @@ $font-size-base: 16px;
 
 .nav-link{
     color:#00CA99;
+    display: block;
     &:hover{
         text-decoration: underline;
         color:darken(#00CA99, 10%);
@@ -89,13 +99,10 @@ label {
 @include media-breakpoint-down(sm){
     .img-class{
         margin:0 auto;
+        // background-image: url(/images/logo.png);
+        // height: 100%;
     }
     .img-title{
         font-size:$font-size-base*1.5;
     }
-    .nav-link{
-        border:1px solid;
-        text-decoration: none;
-        background-color: darken($primary-green, 30%);
-    }    
 }

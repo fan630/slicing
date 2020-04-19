@@ -10764,12 +10764,17 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.bg-top {
-  background-color: #f6f6f6;
+.wrap {
+  max-width: 1920px;
 }
 
-.bg-top--style {
-  letter-spacing: 2px;
+header li {
+  list-style: none;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
 }
 
 .icon-facebook {
@@ -10788,6 +10793,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .nav-link {
   color: #00CA99;
+  display: block;
 }
 
 .nav-link:hover {
@@ -10859,11 +10865,6 @@ label {
   }
   .img-title {
     font-size: 24px;
-  }
-  .nav-link {
-    border: 1px solid;
-    text-decoration: none;
-    background-color: #003125;
   }
 }
 /*# sourceMappingURL=all.css.map */
